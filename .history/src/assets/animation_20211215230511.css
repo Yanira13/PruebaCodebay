@@ -1,0 +1,56 @@
+.img1{
+    width: 100%;
+    height: 500px;
+    background: url("../media/img/cardModel1.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: inline-block;
+}
+.card:hover .img1{
+    background: url("../media/img/cardModel1_rever.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.img2{
+    width: 100%;
+    height: 500px;
+    background: url("../media/img/cardModel2.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: inline-block;
+}
+.card:hover .img2{
+    background: url("../media/img/cardModel2_rever.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.img3{
+    width: 100%;
+    height: 500px;
+    background: url("../media/img/cardModel3.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: inline-block;
+}
+.card:hover .img3{
+    background: url("../media/img/cardModel3_rever.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.img4{
+    width: 100%;
+    height: 500px;
+    background: url("../media/img/cardModel4.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: inline-block;
+}
+.card:hover .img4{
+    background: url("../media/img/cardModel4_rever.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+.ccc{
+    
+}

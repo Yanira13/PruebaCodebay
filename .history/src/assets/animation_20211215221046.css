@@ -1,0 +1,13 @@
+.img1{
+    width: 100%;
+    height: 500px;
+    background: url("../media/img/cardModel1.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: inline-block;
+}
+.card.img1:hover{
+    background: url("../media/img/cardModel1_rever.jpg") no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover;
+}

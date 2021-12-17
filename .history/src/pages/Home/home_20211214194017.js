@@ -1,0 +1,9 @@
+import React from "react";
+import {  } from "react-boostrap";
+
+export default function Home (){
+    return(
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+ 
+    )
+}

@@ -1,0 +1,40 @@
+.flipy {
+   
+     
+  }
+  .flipy .card:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+  .flipy .card {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+  }
+  .flipy .card .face {
+    position: absolute;
+   
+    z-index: 2;
+      font-family: Georgia;
+      font-size: 1em;
+      text-align: center;
+      align-items: flex-end;
+      
+  }
+  .flipy .card .front {
+    z-index: 1;
+      background: #f8f8f8;
+      color: white;
+      cursor: pointer;
+  }
+  .flipy .card .back {
+      -webkit-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      background: blue;
+      background: #f8f8f8;
+      color: black;
+      cursor: pointer;
+  }
